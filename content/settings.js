@@ -11,7 +11,7 @@ const SETTINGS =
 	SHOWUPPER: true,
 	SHOWTITLE: true,
 	SHOWDATE: true,
-	SHOWAUTH: true,
+	SHOWAUTH: false,
 	SHOWTYPE: true,
 	SHOWLINK: true,
 	SHOWLOWER: true,
