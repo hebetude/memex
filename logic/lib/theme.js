@@ -1,6 +1,6 @@
 'use strict'
 
-function Theme (default_theme = { background: '#222', f_high: '#fff', f_med: '#ccc', f_low: '#999', f_inv: '#fff', b_high: '#888', b_med: '#666', b_low: '#444', b_inv: '#000' }) {
+function Theme (default_theme = { background: '#000000', f_high: '#FFFFFF', f_med: '#00FF00', f_low: '#999999', f_inv: '#000000', b_high: '#444444', b_med: '#2A2A2A', b_low: '#151515', b_inv: '#00FF00' }) {
   const themer = this
 
   this.el = document.createElement('style')
@@ -11,7 +11,7 @@ function Theme (default_theme = { background: '#222', f_high: '#fff', f_med: '#c
 
   this.collection = {
     default: default_theme,
-    noir: { background: '#222', f_high: '#fff', f_med: '#ccc', f_low: '#999', f_inv: '#fff', b_high: '#888', b_med: '#666', b_low: '#444', b_inv: '#000' },
+    noir: default_theme,
     pale: { background: '#e1e1e1', f_high: '#000', f_med: '#777', f_low: '#fff', f_inv: '#000', b_high: '#eee', b_med: '#999', b_low: '#ccc', b_inv: '#fff' }
   }
 
